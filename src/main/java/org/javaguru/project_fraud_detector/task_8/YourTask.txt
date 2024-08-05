@@ -26,6 +26,10 @@
 
 Что из этого получилось?
 
+Дополнительно к данному заданию советуем прочитать:
+https://en.wikipedia.org/wiki/Single-responsibility_principle
+https://en.wikipedia.org/wiki/SOLID
+
 #### Поддержка, вопросы и обратная связь по проекту
 * [Телеграмм группа проекта](https://t.me/+YmrodVgEq88xYjU0)
 * [Телеграмм автора курса] (javagurulv)
