@@ -3,29 +3,36 @@ package org.javaguru.project_fraud_detector.task_8.frauddetector;
 class FraudDetector {
 
     boolean isFraud(Transaction transaction) {
+        return isFraudByRule1(transaction)
+                || isFraudByRule2(transaction)
+                || isFraudByRule3(transaction)
+                || isFraudByRule4(transaction)
+                || isFraudByRule5(transaction);
+    }
+
+    private boolean isFraudByRule1(Transaction transaction) {
         Trader trader = transaction.getTrader();
-        if (trader.getFullName().equals("Pokemon")) {
-            return true;
-        }
+        return trader.getFullName().equals("Pokemon");
+    }
 
-        if (transaction.getAmount() > 1000000) {
-            return true;
-        }
+    private boolean isFraudByRule2(Transaction transaction) {
+        return transaction.getAmount() > 1000000;
+    }
 
-        if (trader.getCity().equals("Sydney")) {
-            return true;
-        }
+    private boolean isFraudByRule3(Transaction transaction) {
+        Trader trader = transaction.getTrader();
+        return trader.getCity().equals("Sydney");
+    }
 
-        if (trader.getCountry().equals("Jamaica")) {
-            return true;
-        }
+    private boolean isFraudByRule4(Transaction transaction) {
+        Trader trader = transaction.getTrader();
+        return trader.getCountry().equals("Jamaica");
+    }
 
-        if (trader.getCountry().equals("Germany")
-            && transaction.getAmount() > 1000) {
-            return true;
-        }
-
-        return false;
+    private boolean isFraudByRule5(Transaction transaction) {
+        Trader trader = transaction.getTrader();
+        return trader.getCountry().equals("Germany")
+                && transaction.getAmount() > 1000;
     }
 
 }

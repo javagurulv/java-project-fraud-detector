@@ -6,9 +6,13 @@ class FraudDetector {
         Trader trader = transaction.getTrader();
         if (trader.getFullName().equals("Pokemon")) {
             return true;
-        } else {
-            return false;
         }
+
+        if (transaction.getAmount() > 1000000) {
+            return true;
+        }
+
+        return false;
     }
 
 }

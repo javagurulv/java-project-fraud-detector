@@ -1,4 +1,4 @@
-package org.javaguru.project_fraud_detector.task_10.frauddetector;
+package org.javaguru.project_fraud_detector.task_17.frauddetector;
 
 import org.junit.jupiter.api.Test;
 
@@ -7,7 +7,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class FraudRule5Test {
 
-    private FraudRule5 fraudRule = new FraudRule5();
+    private FraudRule5 fraudRule
+            = new FraudRule5();
 
     @Test
     public void shouldBeFraud() {

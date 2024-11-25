@@ -7,8 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class FraudRule5Test {
 
-    private FraudRule5 fraudRule
-            = new FraudRule5();
+    private FraudRule5 fraudRule = new FraudRule5();
 
     @Test
     public void shouldBeFraud() {

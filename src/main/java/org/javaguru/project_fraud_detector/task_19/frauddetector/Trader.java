@@ -1,4 +1,4 @@
-package org.javaguru.project_fraud_detector.task_6.frauddetector;
+package org.javaguru.project_fraud_detector.task_19.frauddetector;
 
 class Trader {
 
@@ -23,5 +23,4 @@ class Trader {
     public String getCountry() {
         return country;
     }
-
 }

@@ -1,4 +1,4 @@
-package org.javaguru.project_fraud_detector.task_2.frauddetector;
+package org.javaguru.project_fraud_detector.task_19.frauddetector;
 
 class Transaction {
 

@@ -20,6 +20,11 @@ class FraudDetector {
             return true;
         }
 
+        if (trader.getCountry().equals("Germany")
+                && transaction.getAmount() > 1000) {
+            return true;
+        }
+
         return false;
     }
 

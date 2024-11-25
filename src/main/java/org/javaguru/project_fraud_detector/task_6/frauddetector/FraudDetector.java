@@ -16,6 +16,10 @@ class FraudDetector {
             return true;
         }
 
+        if (trader.getCountry().equals("Jamaica")) {
+            return true;
+        }
+
         return false;
     }
 
