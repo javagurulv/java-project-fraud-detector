@@ -31,6 +31,6 @@ https://en.wikipedia.org/wiki/Single-responsibility_principle
 https://en.wikipedia.org/wiki/SOLID
 
 #### Поддержка, вопросы и обратная связь по проекту
-* [Телеграмм группа проекта](https://t.me/+YmrodVgEq88xYjU0)
+* [Телеграмм группа проекта](https://t.me/+mvRhG9YECTlkZjQ0)
 * [Телеграмм автора курса] (@javagurulv)
 * [Емейл автора курса] (javagurulv@gmail.com)

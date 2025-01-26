@@ -45,6 +45,6 @@
 * [Clean Code](https://isbnsearch.org/isbn/9780132350884)
 
 #### Поддержка, вопросы и обратная связь по проекту
-* [Телеграмм группа проекта](https://t.me/+YmrodVgEq88xYjU0)
+* [Телеграмм группа проекта](https://t.me/+mvRhG9YECTlkZjQ0)
 * [Телеграмм автора курса] (@javagurulv)
 * [Емейл автора курса] (javagurulv@gmail.com)
